@@ -3544,10 +3544,10 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 0px 0;
 }
 
-#content .container { position: relative; }
+#content .container { position: relative;margin-bottom: 100px; }
 
 .grid-container {
 	position: relative;
@@ -13943,4 +13943,15 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
-
+.wasap {
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    height: 45px;
+    width: 45px;
+    z-index: 10000;
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 100;
+}
