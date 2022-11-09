@@ -3576,6 +3576,7 @@ body:not(.device-touch) .grid-container {
 	border: 1px solid rgba(0,0,0,0.07);
 	float: left;
 	border-radius: 4px;
+	margin-top: 50px;
 }
 
 .portfolio-filter li {
@@ -3728,6 +3729,7 @@ body:not(.device-touch) .grid-container {
 	-webkit-transition: all .2s linear;
 	-o-transition: all .2s linear;
 	transition: all .2s linear;
+	margin-top: 50px;
 }
 
 .portfolio-shuffle:hover {
