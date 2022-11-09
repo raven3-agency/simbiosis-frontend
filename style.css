@@ -311,7 +311,7 @@ span.middot {
 
 .topmargin { margin-top: 50px !important; }
 
-.bottommargin { margin-bottom: 50px !important; }
+.bottommargin { margin-bottom: 50px !important; margin-top: 100px; }
 
 .clear-bottommargin { margin-bottom: -50px !important; }
 
@@ -1197,7 +1197,7 @@ body.stretched #header.full-header .container {
 #primary-menu ul li:hover > a,
 #primary-menu ul li.current > a { color: #272b2a; }
 
-#primary-menu > ul > li.sub-menu > a > div { }
+/* #primary-menu > ul > li.sub-menu > a > div { } */
 
 body.no-superfish #primary-menu li:hover > ul:not(.mega-menu-column),
 body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; }
@@ -4507,7 +4507,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay a {
 	transition: color .2s linear, background-color .2s linear, margin-top .2s linear, opacity .2s linear;
 }
 
-.portfolio-overlay a.left-icon {  }
+/* .portfolio-overlay a.left-icon {  } */
 
 .portfolio-overlay a.right-icon {
 	left: auto;
@@ -4610,7 +4610,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 /* Portfolio Single
 -----------------------------------------------------------------*/
 
-.portfolio-single {}
+/* .portfolio-single {} */
 
 
 /* Portfolio Single - Image
@@ -8717,6 +8717,8 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-klout { background-color: #FF5F52 !important; }
 .si-linkedin:hover,
 .si-colored.si-linkedin { background-color: #0E76A8 !important; }
+.si-whatsapp:hover,
+.si-colored.si-whatsapp { background-color: #0E76A8 !important; }
 .si-vk:hover,
 .si-colored.si-vk { background-color: #2B587A !important; }
 .si-rss:hover,
@@ -10436,7 +10438,7 @@ blockquote.float-right {
 
 .quote:before {
 	font-family: 'font-icons';
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -10482,7 +10484,7 @@ blockquote.float-right {
 	Text Rotater
 -----------------------------------------------------------------*/
 
-.text-rotater {}
+/* .text-rotater {} */
 
 .text-rotater > .t-rotate > .animated { display: inline-block; }
 
@@ -13164,7 +13166,7 @@ body:not(.no-transition) #wrapper,
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	-webkit-animation-name: ball-grid-pulse;
 	animation-name: ball-grid-pulse;
 	-webkit-animation-iteration-count: infinite;
