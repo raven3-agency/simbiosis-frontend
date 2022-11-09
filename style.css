@@ -8599,8 +8599,11 @@ body:not(.device-touch) .on-hover.i-overlay {
 }
 
 .social-icon i {
-	display: block;
-	position: relative;
+	/* display: block;
+	position: relative; */
+	display: flex;
+align-items: center;
+justify-content: center;
 }
 
 body:not(.device-touch) .social-icon i {
