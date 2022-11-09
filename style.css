@@ -9862,7 +9862,8 @@ body:not(.device-touch) .clients-grid li a {
 
 .team-title {
 	position: relative;
-	padding-top: 20px;
+	margin-top: 20px;
+	text-align: center;
 }
 
 .team-title h4 {
@@ -9872,6 +9873,7 @@ body:not(.device-touch) .clients-grid li a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
+	
 }
 
 .team-title span {
@@ -9887,6 +9889,7 @@ body:not(.device-touch) .clients-grid li a {
 .team-content {
 	margin-top: 15px;
 	color: #777;
+	text-align: center;
 }
 
 .team-content p:last-child { margin-bottom: 0; }
