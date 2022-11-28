@@ -3103,7 +3103,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-caption:not(.dark),
 .slider-caption:not(.dark) h2 {
-	color: #222;
+	/* color: #222 */
+	color: white;
 	text-shadow: none;
 }
 
@@ -3120,6 +3121,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin-top: 30px;
 	margin-bottom: 10px;
 	font-size: 24px;
+	mix-blend-mode: difference;
 }
 
 .slider-caption.slider-caption-right {
